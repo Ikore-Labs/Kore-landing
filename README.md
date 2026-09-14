@@ -6,7 +6,7 @@ Operated by **IKORE LABS LTD** (RC 9614851).
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 - **Frontend Framework**: [React 19](https://react.dev/)
 - **Build Tooling**: [Vite 8](https://vite.dev/) (with fast React HMR)
@@ -17,57 +17,57 @@ Operated by **IKORE LABS LTD** (RC 9614851).
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
-├── .husky/              # Git hooks (pre-commit, commit-msg)
+├── .husky/ # Git hooks (pre-commit, commit-msg)
 ├── lib/
-│   └── waitlist.ts      # Waitlist API Client (submits to Google Apps Script Web App)
+│ └── waitlist.ts # Waitlist API Client (submits to Google Apps Script Web App)
 ├── public/
-│   ├── images/          # Image assets & illustrations (single source of truth)
-│   ├── favicon.ico
-│   └── site.webmanifest
+│ ├── images/ # Image assets & illustrations (single source of truth)
+│ ├── favicon.ico
+│ └── site.webmanifest
 ├── src/
-│   ├── assets/
-│   │   └── icons/       # Extracted React SVG component items
-│   ├── components/
-│   │   ├── FAQItem.tsx  # React FAQ Accordion unit
-│   │   ├── StatCounter.tsx # React count-up animation component
-│   │   ├── Layout.tsx   # Top-level route Layout orchestrator (manages scaling contexts)
-│   │   ├── legal/       # Modular terms & privacy contents & stylesheet
-│   │   │   ├── legal.css
-│   │   │   ├── TermsContent.tsx
-│   │   │   └── PrivacyContent.tsx
-│   │   └── sections/    # Modular page layout sections
-│   │       ├── BetterWay/
-│   │       ├── CoreProblem/
-│   │       ├── FAQ/
-│   │       ├── FlowAndWhy/
-│   │       ├── Footer/
-│   │       ├── Hero/
-│   │       ├── HowItWorks/
-│   │       ├── Navbar/
-│   │       ├── Story/
-│   │       ├── Waitlist/
-│   │       ├── WasteCrisis/
-│   │       ├── WhyDifferent/
-│   │       └── WhyKore/
-│   ├── pages/           # Route entry page views
-│   │   ├── Home.tsx     # Homepage entry wrapper
-│   │   ├── Terms.tsx    # Terms and Conditions view (with scrollspy outline)
-│   │   └── Privacy.tsx  # Privacy Policy view (with scrollspy outline)
-│   ├── App.tsx          # Client-side router path setup
-│   ├── index.css        # Global static companion stylesheet (resets, Figma viewports)
-│   ├── main.tsx         # React root mounting node
-│   ├── script.js        # Native JS interaction layer (ripple, hover, alerts)
-│   └── script.d.ts      # TypeScript interfaces for script.js
-├── tsconfig.json        # TypeScript configuration referencing app and node profiles
-└── vite.config.ts       # Vite config (maps path aliases & injects environment vars)
+│ ├── assets/
+│ │ └── icons/ # Extracted React SVG component items
+│ ├── components/
+│ │ ├── FAQItem.tsx # React FAQ Accordion unit
+│ │ ├── StatCounter.tsx # React count-up animation component
+│ │ ├── Layout.tsx # Top-level route Layout orchestrator (manages scaling contexts)
+│ │ ├── legal/ # Modular terms & privacy contents & stylesheet
+│ │ │ ├── legal.css
+│ │ │ ├── TermsContent.tsx
+│ │ │ └── PrivacyContent.tsx
+│ │ └── sections/ # Modular page layout sections
+│ │ ├── BetterWay/
+│ │ ├── CoreProblem/
+│ │ ├── FAQ/
+│ │ ├── FlowAndWhy/
+│ │ ├── Footer/
+│ │ ├── Hero/
+│ │ ├── HowItWorks/
+│ │ ├── Navbar/
+│ │ ├── Story/
+│ │ ├── Waitlist/
+│ │ ├── WasteCrisis/
+│ │ ├── WhyDifferent/
+│ │ └── WhyKore/
+│ ├── pages/ # Route entry page views
+│ │ ├── Home.tsx # Homepage entry wrapper
+│ │ ├── Terms.tsx # Terms and Conditions view (with scrollspy outline)
+│ │ └── Privacy.tsx # Privacy Policy view (with scrollspy outline)
+│ ├── App.tsx # Client-side router path setup
+│ ├── index.css # Global static companion stylesheet (resets, Figma viewports)
+│ ├── main.tsx # React root mounting node
+│ ├── script.js # Native JS interaction layer (ripple, hover, alerts)
+│ └── script.d.ts # TypeScript interfaces for script.js
+├── tsconfig.json # TypeScript configuration referencing app and node profiles
+└── vite.config.ts # Vite config (maps path aliases & injects environment vars)
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone & Install Dependencies
 
@@ -113,32 +113,34 @@ The compiled output will be generated inside the `/dist` directory.
 
 ---
 
-## 🛡️ Linting, Code Quality & Git Hooks
+## Linting, Code Quality & Git Hooks
 
 To maintain a clean codebase and collaborative environment, the following quality checks are configured:
 
 1. **Conventional Commits**:
    Commit messages are validated using **Commitlint**. You must prefix commit messages with standard types:
-   - `feat:` (New feature)
-   - `fix:` (Bug fix)
-   - `chore:` (Build/tooling/deps config)
-   - `docs:` (Documentation updates)
-   - `refactor:` (Code restructuring)
 
-   _Example:_ `feat: add custom phone validation to waitlist submission`
+- `feat:` (New feature)
+- `fix:` (Bug fix)
+- `chore:` (Build/tooling/deps config)
+- `docs:` (Documentation updates)
+- `refactor:` (Code restructuring)
+
+_Example:_ `feat: add custom phone validation to waitlist submission`
 
 2. **Pre-commit Formatting & Linting**:
    On running a commit, **Husky** triggers **Lint-staged**, running:
-   - **Oxlint**: Quick linting of TypeScript/JavaScript code for errors and hook rules.
-   - **Prettier**: Autoshapes files to conform to project style rules defined in [.prettierrc](file:///home/sam__ayo/dev/kore/Kore-landing/.prettierrc).
-   - Any linting errors will block the commit from being completed until resolved.
+
+- **Oxlint**: Quick linting of TypeScript/JavaScript code for errors and hook rules.
+- **Prettier**: Autoshapes files to conform to project style rules defined in [.prettierrc](file:///home/sam__ayo/dev/kore/Kore-landing/.prettierrc).
+- Any linting errors will block the commit from being completed until resolved.
 
 3. **EditorConfig**:
    Enforces consistent line endings (`LF`), trim trailing whitespace, and indentation (2 spaces) across various editors using the [.editorconfig](file:///home/sam__ayo/dev/kore/Kore-landing/.editorconfig) file.
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
 The project is configured for deployment on **Vercel** with the following build configurations:
 
