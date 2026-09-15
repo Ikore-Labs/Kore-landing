@@ -702,7 +702,7 @@ export default function Team() {
                                 color: '#252323'
                               }}
                             >
-                              Toluwanimi Durojaiye Timothy
+                              Toluwanimi Davis Timothy
                             </span>
                             <div
                               style={{
