@@ -978,14 +978,19 @@ export default function Team() {
                             }}
                           >
                             Tolu leads the team at Korè, shaping the product,
-                            driving the business and turning ideas into reality.
-                            As a full-stack developer with a strong
-                            understanding of how trade works in Nigeria, he's
-                            passionate about using technology to solve everyday
-                            challenges for farmers and traders. His goal is
-                            simple: build Korè into Africa's most trusted
-                            digital marketplace where buying and selling is
-                            easier, fairer and more rewarding for everyone,
+                            driving the business, and occasionally asking, “What
+                            if we just built it ourselves?” As a software
+                            engineer with a strong understanding of how trade
+                            works in Nigeria, he’s passionate about using
+                            technology to solve real problems for farmers,
+                            traders, and everyone in between. He enjoys turning
+                            messy ideas into simple products, complicated
+                            problems into working systems, and the occasional
+                            wild idea into something surprisingly useful. His
+                            goal is simple: build Korè into Africa’s most
+                            trusted digital marketplace, where buying and
+                            selling is easier, fairer, and more rewarding for
+                            everyone.
                           </span>
                           <div
                             style={{
