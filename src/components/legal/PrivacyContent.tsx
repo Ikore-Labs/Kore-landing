@@ -122,7 +122,7 @@ export default function PrivacyContent() {
           <li>
             <strong>Contract Performance:</strong> Processing necessary to
             fulfil the contract between you and Korè (account creation,
-            transaction processing, escrow management, dispute resolution).
+            transaction processing, payment coordination, dispute resolution).
           </li>
           <li>
             <strong>Consent:</strong> Where you have freely given specific,
@@ -155,9 +155,9 @@ export default function PrivacyContent() {
             maintaining your account;
           </li>
           <li>
-            <strong>Transaction Processing:</strong> Processing orders, managing
-            escrow payments, disbursing funds to Sellers, and issuing refunds to
-            Buyers;
+            <strong>Transaction Processing:</strong> Processing orders,
+            coordinating secure payment processing, and facilitating refunds
+            where applicable;
           </li>
           <li>
             <strong>Identity Verification:</strong> Verifying the identity and
@@ -207,10 +207,10 @@ export default function PrivacyContent() {
         </p>
         <ul>
           <li>
-            <strong>Payment Processors:</strong> Paystack and/or Flutterwave,
-            for the processing of escrow payments, refunds, and disbursements.
-            These processors are bound by their own privacy policies and
-            applicable CBN regulations;
+            <strong>Payment Processors:</strong> Paystack and/or licensed
+            Nigerian payment partners, for the processing of marketplace
+            payments, split settlements, and refunds. These processors are bound
+            by their own privacy policies and applicable CBN regulations;
           </li>
           <li>
             <strong>Logistics Partners:</strong> Third-party delivery companies
@@ -394,7 +394,7 @@ export default function PrivacyContent() {
         <ul>
           <li>
             <strong>Essential Cookies:</strong> Required for the Platform to
-            function (authentication, session management, cart/escrow state).
+            function (authentication, session management, cart/checkout state).
             Cannot be disabled.
           </li>
           <li>
