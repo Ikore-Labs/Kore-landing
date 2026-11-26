@@ -79,11 +79,11 @@ export default function FlowAndWhy() {
                   <span className="kore-flow__step-number">04</span>
                   <div className="kore-flow__step-details">
                     <span className="kore-flow__step-title">
-                      Transact &amp; Verify
+                      Transact &amp; Track
                     </span>
                     <span className="kore-flow__step-desc">
-                      Escrow payment processing. On-delivery quality
-                      verification. Funds released upon confirmation.
+                      Secure payment processing via Paystack. Seamless order
+                      fulfillment and transparent delivery tracking.
                     </span>
                   </div>
                 </div>
@@ -171,9 +171,9 @@ export default function FlowAndWhy() {
                 <div className="kore-features__item-title">Secure Payments</div>
               </div>
               <div className="kore-features__item-desc">
-                Escrow-backed transactions. Money moves only
+                Protected transactions powered by Paystack
                 <br />
-                when confirmed.
+                with verified marketplace sellers.
               </div>
             </div>
 

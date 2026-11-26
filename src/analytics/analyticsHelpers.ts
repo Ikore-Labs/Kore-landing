@@ -14,6 +14,9 @@ export interface BaseEventParams {
   page_title?: string
   referrer?: string
   device_type?: string
+  device_model?: string
+  device_brand?: string
+  phone_model?: string
   browser?: string
   os?: string
   viewport?: string
@@ -47,6 +50,9 @@ export async function logEvent(
     page_title: document.title,
     referrer: attribution.referrer || document.referrer || 'direct',
     device_type: deviceInfo.device_type,
+    device_model: deviceInfo.device_model,
+    device_brand: deviceInfo.device_brand,
+    phone_model: deviceInfo.phone_model,
     browser: deviceInfo.browser,
     os: deviceInfo.os,
     viewport: deviceInfo.viewport,

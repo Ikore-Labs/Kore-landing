@@ -22,8 +22,8 @@ export default function TermsContent() {
           connects farmers, food producers, wholesalers, traders, and small
           businesses ("Sellers") with bulk buyers, households, and consumers
           ("Buyers") across Nigeria. The Platform provides infrastructure for
-          product discovery, listings, communications, escrow-secured payments,
-          and logistics coordination.
+          product discovery, listings, communications, secure payments, and
+          logistics coordination.
         </p>
         <p>
           Korè operates as an intermediary marketplace and is not a party to any
@@ -131,8 +131,7 @@ export default function TermsContent() {
             <strong>Fulfilment:</strong> You are obligated to fulfil all
             confirmed orders in the condition, quantity, and timeframe described
             in your listing. Failure to fulfil a confirmed order may result in
-            account suspension and may trigger the escrow dispute resolution
-            process.
+            account suspension and dispute resolution procedures.
           </li>
           <li>
             <strong>Tax Obligations:</strong> You are solely responsible for
@@ -161,8 +160,8 @@ export default function TermsContent() {
             including descriptions, prices, and Seller ratings;
           </li>
           <li>
-            Make payment through the Platform's escrow system only and not
-            conduct off-platform transactions with Sellers;
+            Make payment through the Platform's approved payment methods only
+            and not conduct off-platform transactions with Sellers;
           </li>
           <li>
             Confirm receipt of goods promptly and honestly upon delivery; and
@@ -177,45 +176,47 @@ export default function TermsContent() {
 
       {/* Section 6 */}
       <section id="sec-6" className="legal-section-block">
-        <h2 className="legal-section-title">6. Payments and Escrow System</h2>
+        <h2 className="legal-section-title">6. Payments and Settlement</h2>
         <p>
-          All transactions on the Korè Platform are processed through a
-          third-party escrow payment system integrated with licensed Nigerian
-          payment processors (including Paystack and/or Flutterwave, as
-          applicable).
+          All transactions on the Korè Platform are processed securely through
+          our payment partner, Paystack, using standard marketplace payment
+          infrastructure including Split Payments and verified seller
+          subaccounts.
         </p>
         <ul>
           <li>
-            <strong>Escrow Hold:</strong> When a Buyer places an order and makes
-            payment, funds are held in escrow and are not released to the Seller
-            until the Buyer confirms receipt and satisfaction with the goods, or
-            until the dispute resolution process concludes in the Seller's
-            favour.
+            <strong>Payment Processing:</strong> When a Buyer places an order
+            and makes payment, transactions are processed securely through
+            Paystack. Paystack distributes payments between Korè and the
+            respective Sellers according to configured split payment rules.
           </li>
           <li>
-            <strong>Release of Funds:</strong> Funds are released to the Seller
-            upon: (a) Buyer confirmation of delivery; or (b) expiry of the Buyer
-            confirmation window (48 hours from confirmed delivery date) without
-            a dispute being raised; or (c) resolution of a dispute in the
-            Seller's favour.
+            <strong>Seller Settlements:</strong> Seller allocations follow
+            Paystack's standard marketplace settlement timelines. Korè does not
+            operate an escrow service and does not independently hold customer
+            or seller funds.
           </li>
           <li>
-            <strong>Refunds:</strong> Refunds to Buyers are processed where: (a)
-            a Seller fails to fulfil a confirmed order; (b) goods received are
-            materially different from the listing; or (c) a dispute is resolved
-            in the Buyer's favour. Refunds are processed within 3–7 business
-            days to the original payment method.
+            <strong>Fulfillment &amp; Delivery:</strong> Korè independently
+            coordinates order processing, fulfillment, and delivery logistics
+            across verified marketplace participants.
           </li>
           <li>
-            <strong>Service Fee:</strong> Korè charges a service fee on each
-            completed transaction. The current fee structure is displayed on the
-            Platform and may be updated from time to time with notice to
-            Sellers.
+            <strong>Refunds:</strong> Where eligible under applicable
+            marketplace policies (such as order cancellation prior to dispatch
+            or verified non-delivery), refunds are processed through Paystack
+            back to the Buyer's original payment method in accordance with
+            standard banking timelines.
+          </li>
+          <li>
+            <strong>Service Fee:</strong> Korè charges a platform service
+            commission on each completed transaction, deducted at the time of
+            payment processing.
           </li>
           <li>
             <strong>Off-Platform Transactions:</strong> Conducting transactions
-            outside the Platform to circumvent the escrow system is a material
-            breach of these Terms and may result in immediate account
+            outside the Platform to circumvent platform protections and fees is
+            a material breach of these Terms and may result in immediate account
             termination. Korè accepts no liability for disputes arising from
             off-platform transactions.
           </li>
@@ -246,9 +247,9 @@ export default function TermsContent() {
             evidence submitted by both parties within 3–5 business days.
           </li>
           <li>
-            <strong>Decision:</strong> Korè will issue a resolution decision.
-            Funds held in escrow will be released or refunded in accordance with
-            the decision.
+            <strong>Decision:</strong> Korè will issue a resolution decision and
+            take appropriate marketplace actions in accordance with published
+            policies.
           </li>
           <li>
             <strong>Appeal:</strong> Either party may appeal the decision within
@@ -302,9 +303,8 @@ export default function TermsContent() {
         </ul>
         <p>
           Violation of any prohibited conduct provision may result in immediate
-          account suspension or termination, forfeiture of funds held in escrow
-          (pending investigation), and where applicable, referral to law
-          enforcement authorities.
+          account suspension or termination, withholding of platform privileges,
+          and where applicable, referral to law enforcement authorities.
         </p>
       </section>
 
@@ -448,9 +448,9 @@ export default function TermsContent() {
           </li>
         </ul>
         <p>
-          Upon termination, any funds held in escrow for disputed transactions
-          will be resolved in accordance with Section 7. All licences granted to
-          you under these Terms will immediately terminate.
+          Upon termination, any pending transactions or active disputes will be
+          resolved in accordance with Section 7. All licences granted to you
+          under these Terms will immediately terminate.
         </p>
       </section>
 

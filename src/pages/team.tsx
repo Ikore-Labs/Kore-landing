@@ -2743,7 +2743,7 @@ export default function Team() {
                   >
                     Korè platform goes live. First 500 verified sellers
                     onboarded in Lagos. Food and agricultural goods as the
-                    anchor category. Escrow payments via Paystack. Logistics
+                    anchor category. Secure payments via Paystack. Logistics
                     integration active.
                   </span>
                 </div>

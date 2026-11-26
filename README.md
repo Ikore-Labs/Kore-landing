@@ -1,6 +1,6 @@
 # Korè — Nigeria's Agricultural Marketplace (Landing Page)
 
-This repository contains the single-page application (SPA) landing page for **Korè**, a direct farm-to-buyer digital marketplace connecting Nigerian farmers, wholesalers, and traders with buyers. It features identity verification, escrow-secured payments, freshness labelling, and logistics coordination.
+This repository contains the single-page application (SPA) landing page for **Korè**, a direct farm-to-buyer digital marketplace connecting Nigerian farmers, wholesalers, and traders with buyers. It features identity verification, secure payments via Paystack, freshness labelling, and logistics coordination.
 
 Operated by **IKORE LABS LTD** (RC 9614851).
 

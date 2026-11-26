@@ -123,13 +123,15 @@ export default function WhyDifferent() {
                 </div>
               </div>
               <div className="why-different__card-titles why-different__card-titles--mirrored">
-                <span className="why-different__card-title">Trust Escrow</span>
+                <span className="why-different__card-title">
+                  Verified Sellers
+                </span>
                 <span className="why-different__card-subtitle">For Both</span>
               </div>
             </div>
             <span className="why-different__card-body">
-              Secure transactions with payment held until delivery confirmed.
-              Both parties protected. Building an economy on trust, not fear.
+              Transparent transactions with verified sellers and secure Paystack
+              payments. Promoting accountability across agricultural trade.
               <br />
             </span>
           </div>

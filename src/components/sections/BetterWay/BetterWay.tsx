@@ -18,7 +18,7 @@ export default function BetterWay() {
         <span className="better-way__subtitle">
           Korè connects Ama directly to Kofi. No middlemen. No spoilage. No
           guessing. Real-time discovery based on location. Transparent
-          freshness. Escrow-backed trust.
+          freshness. Verified marketplace trust.
         </span>
       </div>
 
