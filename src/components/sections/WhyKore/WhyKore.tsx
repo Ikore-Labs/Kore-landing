@@ -107,7 +107,7 @@ export default function WhyKore() {
             <div className="comparison-grid__cell">
               <div className="comparison-grid__inner-container">
                 <span className="comparison-grid__text comparison-grid__text--feature-name">
-                  Escrow Protection
+                  Verified Sellers
                 </span>
               </div>
             </div>

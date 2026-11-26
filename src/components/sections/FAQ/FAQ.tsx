@@ -53,8 +53,8 @@ export default function FAQ() {
           onToggle={() => handleToggle(3)}
         />
         <FAQItem
-          question="Is my payment protected?"
-          answer="Yes. All payments on Korè are held in escrow. The supplier only receives funds after you confirm delivery. If there's a quality dispute, our Customer Service team mediates with a clear SLA."
+          question="Are payments processed securely?"
+          answer="Yes. Payments are processed securely through our payment partner, Paystack. Korè uses Paystack's marketplace payment infrastructure with Split Payments and verified seller accounts, ensuring transparent transactions and reliable settlement."
           isOpen={openIndex === 4}
           onToggle={() => handleToggle(4)}
         />

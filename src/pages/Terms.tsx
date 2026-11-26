@@ -13,7 +13,7 @@ export default function TermsPage() {
     { id: 'sec-3', label: '3. Account Registration' },
     { id: 'sec-4', label: '4. Seller Obligations' },
     { id: 'sec-5', label: '5. Buyer Obligations' },
-    { id: 'sec-6', label: '6. Payments & Escrow' },
+    { id: 'sec-6', label: '6. Payments & Settlement' },
     { id: 'sec-7', label: '7. Dispute Resolution' },
     { id: 'sec-8', label: '8. Prohibited Conduct' },
     { id: 'sec-9', label: '9. Intellectual Property' },

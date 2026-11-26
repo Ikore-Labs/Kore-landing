@@ -169,8 +169,8 @@ export default function Hero() {
                         <li>
                           <span className="kor-flow-step-title">Step 4: </span>
                           <span className="kor-flow-step-desc">
-                            Escrow payment processing. On-delivery quality
-                            verification. Funds released upon confirmation.
+                            Secure payment processing via Paystack. Seamless
+                            order fulfillment and transparent delivery tracking.
                           </span>
                         </li>
                       </ul>
@@ -287,11 +287,12 @@ export default function Hero() {
                   />
                 </div>
                 <div className="frame-44592">
-                  <div className="feature-title">Trust-First Escrow</div>
+                  <div className="feature-title">
+                    Verified Marketplace Trust
+                  </div>
                   <div className="feature-desc">
-                    Secure payment holding, released only on confirmed delivery.
-                    Protects both buyers and sellers while building platform
-                    reputation.
+                    Secure payments via Paystack with verified seller accounts.
+                    Promotes accountability and transparent transactions.
                   </div>
                 </div>
               </div>
